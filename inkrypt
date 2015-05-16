@@ -1,0 +1,11 @@
+#!/usr/bin/python
+
+from Inkrypt import gui
+
+def main():
+	mainWindow = gui.MainWindow()
+	mainWindow.show_all()
+	gui.main()
+
+if __name__ == '__main__':
+	main()
